@@ -14,7 +14,7 @@ RUN curl --silent --show-error --fail --location \
     && chmod 0755 /usr/bin/coredns \
     && /usr/bin/coredns -version
 
-EXPOSE 53 
+EXPOSE 53 53/udp
 
 VOLUME ["/etc/coredns/"]
 
