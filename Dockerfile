@@ -16,7 +16,7 @@ RUN curl --silent --show-error --fail --location \
 
 EXPOSE 53 
 
-VOLUME ["/etc/coredns/"
+VOLUME ["/etc/coredns/"]
 
 ENTRYPOINT ["/usr/bin/coredns"]
 CMD ["-conf", "/etc/coredns/Corefile"]
