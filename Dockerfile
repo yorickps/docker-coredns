@@ -1,7 +1,7 @@
 FROM alpine:3.6
 LABEL maintainer="Yorick Poels <yorick.poels@gmail.com>"
 
-ENV COREDNS_VERSION=0.9.9
+ENV COREDNS_VERSION=0.9.10
 
 RUN apk add --no-cache bind-tools ca-certificates openssl curl &&\
                  update-ca-certificates &&\
