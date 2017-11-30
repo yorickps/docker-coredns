@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM arm32v6/alpine:3.6
 LABEL maintainer="Yorick Poels <yorick.poels@gmail.com>"
 
 ENV COREDNS_VERSION=0.9.10
