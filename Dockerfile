@@ -1,5 +1,5 @@
 FROM alpine:3.12
-LABEL maintainer="Yorick Poels <yorick.poels@gmail.com>"
+LABEL maintainer="Yorick Poels"
 
 ARG COREDNS_VERSION=1.8.0
 
